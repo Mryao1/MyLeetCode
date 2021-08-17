@@ -5,7 +5,7 @@ package array;
  * @description
  * @date 2021年08月15日 21:05
  */
-public class A977SquaresOfASortedArray {
+public class Q977SquaresOfASortedArray {
     public int[] sortedSquares(int[] nums) {
         if(null == nums || nums.length == 0){
             return new int[0];

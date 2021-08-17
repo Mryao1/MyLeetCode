@@ -5,7 +5,7 @@ package array;
  * @description
  * @date 2021年08月15日 20:14
  */
-public class SearchInsertPosition35 {
+public class Q35SearchInsertPosition {
     public int searchInsert(int[] nums, int target) {
         if(null == nums || nums.length == 0){
             return 0;

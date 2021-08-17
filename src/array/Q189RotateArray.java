@@ -5,7 +5,7 @@ package array;
  * @description
  * @date 2021年08月16日 21:11
  */
-public class A189RotateArray {
+public class Q189RotateArray {
 
     public void rotate(int[] nums, int k) {
         rotate3(nums, k);

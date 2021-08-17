@@ -5,11 +5,11 @@ package array;
  * @description
  * @date 2021年08月15日 17:32
  */
-public class FirstBadVersion278 {
+public class Q278FirstBadVersion {
 
     private static int badVersion;
 
-    public FirstBadVersion278(int v){
+    public Q278FirstBadVersion(int v){
         badVersion = v;
     }
 

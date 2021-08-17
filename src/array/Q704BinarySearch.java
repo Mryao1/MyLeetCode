@@ -13,7 +13,7 @@ import static org.junit.Assert.assertEquals;
  * 链接：https://leetcode-cn.com/problems/binary-search
  * @date 2021年08月14日 22:37
  */
-public class BinarySearch704 {
+public class Q704BinarySearch {
     public int search(int[] nums, int target) {
         if(null == nums || nums.length == 0) {
             return -1;

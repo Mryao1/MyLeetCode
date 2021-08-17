@@ -5,12 +5,12 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class A189RotateArrayTest {
-    private static A189RotateArray a;
+public class Q189RotateArrayTest {
+    private static Q189RotateArray a;
 
     @BeforeClass
     public static void setUp() {
-        a = new A189RotateArray();
+        a = new Q189RotateArray();
     }
 
     @Test

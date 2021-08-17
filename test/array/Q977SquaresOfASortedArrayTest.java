@@ -4,8 +4,8 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class A977SquaresOfASortedArrayTest {
-    private static final A977SquaresOfASortedArray obj = new A977SquaresOfASortedArray();
+public class Q977SquaresOfASortedArrayTest {
+    private static final Q977SquaresOfASortedArray obj = new Q977SquaresOfASortedArray();
 
     @Test
     public void test1(){

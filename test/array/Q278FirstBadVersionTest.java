@@ -7,9 +7,9 @@ import java.util.Random;
 
 import static org.junit.Assert.*;
 
-public class FirstBadVersion278Test {
+public class Q278FirstBadVersionTest {
 
-    private static FirstBadVersion278 firstBadVersion278;
+    private static Q278FirstBadVersion q;
     private int bad;
     private int n;
 
@@ -17,11 +17,11 @@ public class FirstBadVersion278Test {
     public void setUp() {
         n = (int) (Math.random() * 100);
         bad = new Random().nextInt(n);
-        firstBadVersion278 = new FirstBadVersion278(bad);
+        q = new Q278FirstBadVersion(bad);
     }
 
     @Test
     public void test(){
-        assertEquals(bad, firstBadVersion278.firstBadVersion(n));
+        assertEquals(bad, q.firstBadVersion(n));
     }
 }
